@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8012/eureka/
+      
+words: I,You,He,She,It
+
+spring:
+  application:
+    name: lab-4-subject
+    
+    
